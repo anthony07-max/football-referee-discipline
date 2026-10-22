@@ -1,0 +1,299 @@
+{
+  "Premier League_trend": {
+    "yellows_2000": 3.14,
+    "yellows_2025": 3.75,
+    "fouls_2000": 26.9,
+    "fouls_2025": 21.6,
+    "yellows_per_100_fouls_2000": 11.7,
+    "yellows_per_100_fouls_2025": 17.3,
+    "reds_2000": 0.166,
+    "reds_2025": 0.103,
+    "yellow_slope_per_season": 0.03,
+    "peak_yellow_season": 2023,
+    "peak_yellows": 4.17
+  },
+  "League One_trend": {
+    "yellows_2000": 2.86,
+    "yellows_2025": 3.67,
+    "fouls_2000": 25.4,
+    "fouls_2025": 22.9,
+    "yellows_per_100_fouls_2000": 11.3,
+    "yellows_per_100_fouls_2025": 16.1,
+    "reds_2000": 0.17,
+    "reds_2025": 0.111,
+    "yellow_slope_per_season": 0.032,
+    "peak_yellow_season": 2023,
+    "peak_yellows": 3.97
+  },
+  "League One_referees": {
+    "referees": 35,
+    "matches": 2466,
+    "between_ref_sd_pct": 9.2,
+    "red_between_ref_sd_pct": 13.8,
+    "dispersion_chi2": 109.1,
+    "dof": 34,
+    "p_value": 8.320825940591136e-10,
+    "strictest": [
+      {
+        "referee": "A Young",
+        "matches": 56,
+        "yellows_pm": 4.446,
+        "yellows_index": 1.172,
+        "yellows_lo": 1.055,
+        "yellows_hi": 1.295
+      },
+      {
+        "referee": "C Breakspear",
+        "matches": 99,
+        "yellows_pm": 4.172,
+        "yellows_index": 1.133,
+        "yellows_lo": 1.039,
+        "yellows_hi": 1.231
+      },
+      {
+        "referee": "O Yates",
+        "matches": 100,
+        "yellows_pm": 4.18,
+        "yellows_index": 1.13,
+        "yellows_lo": 1.037,
+        "yellows_hi": 1.228
+      }
+    ],
+    "most_lenient": [
+      {
+        "referee": "T Reeves",
+        "matches": 65,
+        "yellows_pm": 2.846,
+        "yellows_index": 0.845,
+        "yellows_lo": 0.752,
+        "yellows_hi": 0.943
+      },
+      {
+        "referee": "S Oldham",
+        "matches": 110,
+        "yellows_pm": 3.018,
+        "yellows_index": 0.881,
+        "yellows_lo": 0.801,
+        "yellows_hi": 0.964
+      },
+      {
+        "referee": "C Hicks",
+        "matches": 89,
+        "yellows_pm": 2.966,
+        "yellows_index": 0.885,
+        "yellows_lo": 0.798,
+        "yellows_hi": 0.976
+      }
+    ],
+    "corr_foul_index_vs_card_index": 0.35
+  },
+  "Premier League_referees": {
+    "referees": 25,
+    "matches": 2554,
+    "between_ref_sd_pct": 6.3,
+    "red_between_ref_sd_pct": 0.1,
+    "dispersion_chi2": 61.1,
+    "dof": 24,
+    "p_value": 4.423386998814025e-05,
+    "strictest": [
+      {
+        "referee": "D Coote",
+        "matches": 100,
+        "yellows_pm": 3.93,
+        "yellows_index": 1.074,
+        "yellows_lo": 0.993,
+        "yellows_hi": 1.159
+      },
+      {
+        "referee": "S Attwell",
+        "matches": 150,
+        "yellows_pm": 3.913,
+        "yellows_index": 1.065,
+        "yellows_lo": 0.994,
+        "yellows_hi": 1.138
+      },
+      {
+        "referee": "M Dean",
+        "matches": 78,
+        "yellows_pm": 3.628,
+        "yellows_index": 1.064,
+        "yellows_lo": 0.976,
+        "yellows_hi": 1.156
+      }
+    ],
+    "most_lenient": [
+      {
+        "referee": "M Atkinson",
+        "matches": 84,
+        "yellows_pm": 2.583,
+        "yellows_index": 0.898,
+        "yellows_lo": 0.819,
+        "yellows_hi": 0.981
+      },
+      {
+        "referee": "G Scott",
+        "matches": 55,
+        "yellows_pm": 2.764,
+        "yellows_index": 0.925,
+        "yellows_lo": 0.837,
+        "yellows_hi": 1.017
+      },
+      {
+        "referee": "A Marriner",
+        "matches": 81,
+        "yellows_pm": 2.778,
+        "yellows_index": 0.926,
+        "yellows_lo": 0.845,
+        "yellows_hi": 1.01
+      }
+    ],
+    "corr_foul_index_vs_card_index": 0.59
+  },
+  "Premier League_home_away": {
+    "home_yellows_pm": 1.48,
+    "away_yellows_pm": 1.8,
+    "away_excess_pct": 22.2,
+    "home_fouls_pm": 11.25,
+    "away_fouls_pm": 11.73,
+    "home_yellows_per_100_fouls": 13.1,
+    "away_yellows_per_100_fouls": 15.4,
+    "away_reds_pm": 0.084,
+    "home_reds_pm": 0.062,
+    "paired_t_p": 1.4747992238138497e-89,
+    "away_rate_ratio_controlling_fouls": 1.179,
+    "rr_ci": [
+      1.153,
+      1.205
+    ]
+  },
+  "League One_home_away": {
+    "home_yellows_pm": 1.39,
+    "away_yellows_pm": 1.73,
+    "away_excess_pct": 25.1,
+    "home_fouls_pm": 11.27,
+    "away_fouls_pm": 11.95,
+    "home_yellows_per_100_fouls": 12.3,
+    "away_yellows_per_100_fouls": 14.5,
+    "away_reds_pm": 0.1,
+    "home_reds_pm": 0.068,
+    "paired_t_p": 3.480636990642072e-146,
+    "away_rate_ratio_controlling_fouls": 1.194,
+    "rr_ci": [
+      1.172,
+      1.217
+    ]
+  },
+  "behind_closed_doors": {
+    "Premier League": {
+      "gap_2020_21": 0.024,
+      "gap_mean_other_seasons_2015_2025": 0.215
+    },
+    "League One": {
+      "gap_2020_21": -0.08,
+      "gap_mean_other_seasons_2015_2025": 0.306
+    }
+  },
+  "Premier League_fouls_corr": 0.341,
+  "League One_fouls_corr": 0.336,
+  "Premier League_cards_by_result": {
+    "Win": {
+      "yellows_pm": 1.466,
+      "reds_pm": 0.037,
+      "fouls_pm": 11.196
+    },
+    "Draw": {
+      "yellows_pm": 1.748,
+      "reds_pm": 0.073,
+      "fouls_pm": 11.762
+    },
+    "Loss": {
+      "yellows_pm": 1.743,
+      "reds_pm": 0.11,
+      "fouls_pm": 11.605
+    }
+  },
+  "League One_cards_by_result": {
+    "Win": {
+      "yellows_pm": 1.499,
+      "reds_pm": 0.045,
+      "fouls_pm": 11.612
+    },
+    "Draw": {
+      "yellows_pm": 1.581,
+      "reds_pm": 0.078,
+      "fouls_pm": 11.663
+    },
+    "Loss": {
+      "yellows_pm": 1.604,
+      "reds_pm": 0.126,
+      "fouls_pm": 11.573
+    }
+  },
+  "red_card_impact": [
+    {
+      "league": "League One",
+      "red": false,
+      "n": 23608,
+      "pts": 1.41,
+      "exp_pts": 1.371,
+      "pts_vs_expected": 0.04
+    },
+    {
+      "league": "League One",
+      "red": true,
+      "n": 1720,
+      "pts": 0.778,
+      "exp_pts": 1.273,
+      "pts_vs_expected": -0.494
+    },
+    {
+      "league": "Premier League",
+      "red": false,
+      "n": 16951,
+      "pts": 1.418,
+      "exp_pts": 1.381,
+      "pts_vs_expected": 0.037
+    },
+    {
+      "league": "Premier League",
+      "red": true,
+      "n": 1109,
+      "pts": 0.756,
+      "exp_pts": 1.272,
+      "pts_vs_expected": -0.517
+    }
+  ],
+  "match_glm": {
+    "Intercept": 0.0,
+    "C(league)[T.Premier League]": 1.0736,
+    "np.log1p(fouls)": 2.4582,
+    "season_start": 1.0151,
+    "goal_diff_abs": 0.9595
+  },
+  "match_glm_pvalues": {
+    "Intercept": 8.890154790147938e-223,
+    "C(league)[T.Premier League]": 7.6508341282691e-22,
+    "np.log1p(fouls)": 0.0,
+    "season_start": 2.511045239414227e-204,
+    "goal_diff_abs": 2.2668486438577834e-36
+  },
+  "league_comparison_2019_2025": {
+    "League One": {
+      "yellows_pm": 3.555,
+      "reds_pm": 0.138,
+      "fouls_pm": 23.273,
+      "matches": 3712,
+      "red_share": 0.127,
+      "yellows_per_100_fouls": 15.275
+    },
+    "Premier League": {
+      "yellows_pm": 3.597,
+      "reds_pm": 0.117,
+      "fouls_pm": 21.54,
+      "matches": 2660,
+      "red_share": 0.108,
+      "yellows_per_100_fouls": 16.699
+    }
+  },
+  "league_comparison_mwu_p": 0.5079711813368686
+}
